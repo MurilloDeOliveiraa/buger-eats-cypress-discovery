@@ -1,0 +1,20 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de Testes de aceitação do app BurgerEats",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Murillo Lopes",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "cypress": "^11.1.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}

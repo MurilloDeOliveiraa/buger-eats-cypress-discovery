@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "name": "Murillo Lopes de Oliveira",
+        "cpf": "10314007962",
+        "email": "murillo.lopes.oliveiraa@gmail.com",
+        "whatsapp": "41988469090",
+        "address": {
+            "postalcode": "82940150",
+            "street": "Rua Goiânia",
+            "number": "1253",
+            "details": "ap 407",
+            "district": "Cajuru",
+            "city_uf": "Curitiba/PR"
+        },
+        "delivery_method": "Moto",
+        "cnh": "/Images/cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "Murillo Lopes",
+        "cpf": "103140079AA",
+        "email": "murillo.lopes.oliveiraa@gmail.com",
+        "whatsapp": "999999999",
+        "address": {
+            "postalcode": "82940150",
+            "street": "Rua Goiânia",
+            "number": "1111",
+            "details": "ap 407",
+            "district": "Cajuru",
+            "city_uf": "Curitiba/PR"
+        },
+        "delivery_method": "Moto",
+        "cnh": "/Images/cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Murillo Lopes de Oliveira",
+        "cpf": "10314007962",
+        "email": "murillo.com.br",
+        "whatsapp": "41988469090",
+        "address": {
+            "postalcode": "82940150",
+            "street": "Rua Goiânia",
+            "number": "1253",
+            "details": "ap 407",
+            "district": "Cajuru",
+            "city_uf": "Curitiba/PR"
+        },
+        "delivery_method": "Moto",
+        "cnh": "/Images/cnh-digital.jpg"
+    }
+}
