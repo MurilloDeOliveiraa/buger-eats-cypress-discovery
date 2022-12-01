@@ -5,14 +5,6 @@ import SignupFactory from '../factories/SignupFactory.js';
 
 describe('SignUp', () => {
 
-    // beforeEach(function () {
-    //     //Comando cy.fixture é para acessar um documento na pasta fixtures
-    //     //comando then(d) é para receber os dados do documento na variável d    (posso escolher qqr nome)
-    //     // cy.fixture('deliver').then((d) => {
-    //     //     this.deliver = d      //this.deliver pois assim posso usar essa variável campo em todo código
-    //     // })
-    // })
-
     var singup = new SignupPage();
 
     it('Successful SignUp', function () {
