@@ -9,10 +9,9 @@
   "author": "Murillo Lopes",
   "license": "MIT",
   "keywords": [],
-  "dependencies": {
-    "cypress": "^11.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "cypress": "^12.0.2",
     "cypress-file-upload": "^5.0.8",
     "faker": "^5.5.3",
     "gerador-validador-cpf": "^5.0.2"
