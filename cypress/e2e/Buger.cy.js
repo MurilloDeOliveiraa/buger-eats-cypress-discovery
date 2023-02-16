@@ -1,4 +1,4 @@
-describe('empty spec', () => {
+describe('spec básico', () => {
   it('passes', () => {
     cy.visit('https://buger-eats-qa.vercel.app');
     cy.get('#page-home main h1')
