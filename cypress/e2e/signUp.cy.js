@@ -43,7 +43,7 @@ describe('SignUp', () => {
 
     context('Required Fields', function () {
 
-        before(function () {
+        beforeEach(function () {
             singup.go();
             singup.submit();
 
