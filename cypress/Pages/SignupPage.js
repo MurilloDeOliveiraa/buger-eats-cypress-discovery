@@ -1,8 +1,12 @@
 class SignupPage {
 
+    //#region PageElements 
+    BaseURL = 'https://buger-eats-qa.vercel.app';
+    //#endregion
+
     go() {
         cy.viewport(1536, 960);
-        cy.visit('https://buger-eats-qa.vercel.app');
+        cy.visit(this.BaseURL);
         cy.get('a[href="/deliver"]').click();
         cy.get('#page-deliver form h1')
             .should('have.text', 'Cadastre-se para  fazer entregas')
@@ -11,7 +15,7 @@ class SignupPage {
     fillForm(deliver) {
         // Inserção de Dados de Cadastro
         cy.get('input[name="fullName"]').type(deliver.name);
-        cy.get('input[name="cpf"]').type(deliver.cpf);
+        cy.get('input[name="cpf"]').type(deliver.cpf, { log: false });  //com esse atributo log eu deixo de mostrar os dados quando to rodando o teste no cypress
         cy.get('input[name="email"]').type(deliver.email);
         cy.get('input[name="whatsapp"]').type(deliver.whatsapp);
         cy.get('input[name="postalcode"]').type(deliver.address.postalcode);
